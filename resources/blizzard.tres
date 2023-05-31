@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=2 format=3 uid="uid://gehjl5otgixd"]
+
+[ext_resource type="Script" path="res://resources/weapon.gd" id="1_jah0r"]
+
+[resource]
+script = ExtResource("1_jah0r")
+name = "Blizzard"
+level = 0

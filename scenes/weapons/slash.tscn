@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbsynjca0eq8q"]
+
+[ext_resource type="Script" path="res://scenes/weapons/slash.gd" id="1_j41pr"]
+
+[node name="Slash" type="Node2D"]
+script = ExtResource("1_j41pr")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

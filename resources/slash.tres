@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://c73ncghossm1b"]
+
+[ext_resource type="Script" path="res://resources/weapon.gd" id="1_nj5xy"]
+[ext_resource type="PackedScene" uid="uid://dbsynjca0eq8q" path="res://scenes/weapons/slash.tscn" id="2_0vyrq"]
+
+[resource]
+script = ExtResource("1_nj5xy")
+name = "Slash"
+level = 0
+upgrade_cost_base = 5.0
+upgrade_cost_rate = 2.0
+weapon_scene = ExtResource("2_0vyrq")

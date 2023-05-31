@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=2 format=3 uid="uid://18s0k3sv48gy"]
+
+[ext_resource type="Script" path="res://resources/weapon.gd" id="1_1jmxn"]
+
+[resource]
+script = ExtResource("1_1jmxn")
+name = "Assassinate"
+level = 0

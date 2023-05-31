@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://vocynt6hqx87"]
+
+[ext_resource type="Script" path="res://scenes/weapons/finger.gd" id="1_u7i7y"]
+
+[node name="Finger" type="Node2D"]
+script = ExtResource("1_u7i7y")

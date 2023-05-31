@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://duud54vmdnfdn"]
+
+[ext_resource type="Script" path="res://scenes/boss.gd" id="1_vjh00"]
+[ext_resource type="Texture2D" uid="uid://2cycbjmmmsih" path="res://scenes/touka.png" id="2_2e36m"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xc3pg"]
+radius = 102.0
+height = 636.0
+
+[node name="Boss" type="Area2D"]
+script = ExtResource("1_vjh00")
+
+[node name="Touka" type="Sprite2D" parent="."]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_2e36m")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_xc3pg")

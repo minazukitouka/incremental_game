@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdk56s7fpiqk6"]
+
+[ext_resource type="Script" path="res://scenes/weapon_button.gd" id="1_wlntn"]
+
+[node name="WeaponButton" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+alignment = 0
+script = ExtResource("1_wlntn")
